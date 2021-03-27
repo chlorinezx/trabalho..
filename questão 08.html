@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabalho</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="dp-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Questões</a>
+                <ul>
+                    <li><a href="questão 01.html">Questão 01</a></li>
+                    <li><a href="questão 02.html">Questão 02</a></li>
+                    <li><a href="questão 03.html">Questão 03</a></li>
+                    <li><a href="questão 04.html">Questão 04</a></li>
+                    <li><a href="questão 05.html">Questão 05</a></li>
+                    <li><a href="questão 06.html">Questão 06</a></li>
+                    <li><a href="questão 07.html">Questão 07</a></li>
+                    <li><a href="questão 08.html">Questão 08</a></li>
+                </ul>
+            </li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        var quantosAnos = Number(window.prompt("qual sua idade?"))
+        var domicilioEleitoral = Number(window.prompt("quanto tempo tem o domocílio eleitoral no local que você vai se candidatar?"))
+        var quantosMandatos = Number(window.prompt("quantos mandatos você tem?"))
+
+      if(quantosAnos >= 21 && domicilioEleitoral >= 1 && quantosMandatos <= 1) {
+       alert("pode se candidatar") 
+      } 
+
+      else {
+       alert("não pode se candidatar")
+      }
+    </script>
+</body>
+</html>

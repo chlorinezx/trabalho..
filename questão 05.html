@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 05</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="dp-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Questões</a>
+                <ul>
+                    <li><a href="questão 01.html">Questão 01</a></li>
+                    <li><a href="questão 02.html">Questão 02</a></li>
+                    <li><a href="questão 03.html">Questão 03</a></li>
+                    <li><a href="questão 04.html">Questão 04</a></li>
+                    <li><a href="questão 05.html">Questão 05</a></li>
+                    <li><a href="questão 06.html">Questão 06</a></li>
+                    <li><a href="questão 07.html">Questão 07</a></li>
+                    <li><a href="questão 08.html">Questão 08</a></li>
+                </ul>
+            </li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <script>
+      
+      var velocidadePermitida = Number(prompt(" Qual a velocidade permitida?"))
+      var velocidadeMotorista = Number(prompt("Qual a velocidade do motorista?"))
+      var limite1 = velocidadePermitida + 10
+      var limite2 = velocidadePermitida + 11
+      var limite3 = velocidadePermitida + 30
+
+        if(velocidadeMotorista > velocidadePermitida && velocidadeMotorista <= limite1) {
+            window.alert("multa de R$50,00")
+        }
+             
+         else if(velocidadeMotorista >= limite2 && velocidadeMotorista <= limite3){
+            window.alert("multa de R$100,00")
+         }
+
+         else if(velocidadeMotorista > limite3){
+            window.alert("multa de R$200,00")
+         }
+
+         else {
+             window.alert("SEM MULTA")
+            }     
+       
+
+    </script>
+
+</body>
+</html>
